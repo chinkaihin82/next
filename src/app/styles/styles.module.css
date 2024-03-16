@@ -1,0 +1,10 @@
+/* styles.module.css */
+
+.button {
+  background-color: blue;
+  color: white;
+}
+
+.button:hover {
+  background-color: lightblue;
+}

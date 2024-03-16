@@ -1,5 +1,6 @@
 import Image from "next/image";
-import Link from 'next/link'
+import Link from 'next/link';
+import styles from '../styles/styles.module.css'
 
 export default function About() {
   return (
@@ -9,6 +10,7 @@ export default function About() {
         <ul>
       <li><Link href="/">top</Link></li>
       </ul>
+      <button className={styles.button}>Click me!</button>
       </div>
     </main>
   );
